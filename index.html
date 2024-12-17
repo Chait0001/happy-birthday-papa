@@ -36,8 +36,9 @@
         animation: zoomIn 0.5s ease-out;
       }
   
-      /* Header Styling */
       .card-header {
+        margin-top: 50px;
+
         background-color: #4fc3f7; /* Light blue header */
         padding: 20px;
         color: white;
@@ -46,6 +47,13 @@
         font-family: 'Comic Sans MS', cursive;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
       }
+
+      @media screen and (max-width:600px) {
+        .card-header{
+            margin-top: 330px;
+        }
+      }
+  
   
       .card-header h1 {
         font-size: 2.8em;
